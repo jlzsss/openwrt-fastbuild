@@ -71,7 +71,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/labeler@main
+      uses: actions/checkout@main
       with:
         fetch-depth: 0
 
