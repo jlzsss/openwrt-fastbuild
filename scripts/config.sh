@@ -18,4 +18,4 @@ fi
 
 cd "${OPENWRT_CUR_DIR}"
 make defconfig
-make oldconfig
+# make oldconfig
