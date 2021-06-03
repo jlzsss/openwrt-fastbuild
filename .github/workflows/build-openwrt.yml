@@ -38,7 +38,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     # For `github.event`'s structure, see: https://developer.github.com/v3/activity/events/types/
     # Do not modify the trigger methods here, customize them in the `on` section
     if: |
@@ -58,8 +58,7 @@ jobs:
         # ########### Add your target name below ###########
         # E.g. target: [x86_64, wdr4310v1]
         target:
-          - openlumi-19.07.7
-          - openlumi-21.02.0-rc
+          - x86_64
         include:
         - mode: normal
           title: Build
