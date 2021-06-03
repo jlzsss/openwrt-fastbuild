@@ -46,4 +46,4 @@ luci-app-shadowsocksr https://github.com/jlzsss/luci-app-shadowsocksr.git
 openwrt-dnsmasq-extra https://github.com/jlzsss/openwrt-dnsmasq-extra.git
 luci-app-serverchan https://github.com/tty228/luci-app-serverchan.git
 luci-app-bypass https://github.com/garypang13/luci-app-bypass.git
-git clone https://github.com/garypang13/smartdns-le.git package/smartdns-le
+smartdns-le https://github.com/garypang13/smartdns-le.git
