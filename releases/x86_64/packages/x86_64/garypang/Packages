@@ -1,0 +1,11 @@
+Package: autosamba
+Version: 1-11
+Depends: libc, luci-app-samba, wsdd2
+Section: opt
+Architecture: x86_64
+Installed-Size: 1146
+Filename: autosamba_1-11_x86_64.ipk
+Size: 1870
+SHA256sum: 685b68e2900266e8e6233cd2e0805da9ab3ffc0e35f340d237f3bc42a4063f3b
+Description:  A hotplug script to config Samba share automatically.
+

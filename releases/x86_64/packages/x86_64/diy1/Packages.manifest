@@ -1,0 +1,77 @@
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-8
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/diy1/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+Architecture: x86_64
+Installed-Size: 2353
+Filename: shadowsocksr-libev-ssr-check_2.5.6-8_x86_64.ipk
+Size: 3068
+SHA256sum: 7d8843e460dd39ae6aa28b8989e313a66e419da247c2d2374c59e1174f6cac6f
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-8
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/diy1/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+Architecture: x86_64
+Installed-Size: 61658
+Filename: shadowsocksr-libev-ssr-local_2.5.6-8_x86_64.ipk
+Size: 62527
+SHA256sum: 8b0abee44e6f427bff477689e78a446339f2ccd658fcfd17384bc5da69bc461c
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-8
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/diy1/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+Architecture: x86_64
+Installed-Size: 55430
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-8_x86_64.ipk
+Size: 56243
+SHA256sum: 58422fc5a80f9a1ccf8b456355b15b7000d0dad30305b5f7fc8b834d0eb121e6
+Description:  shadowsocksr-libev ssr-redir
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Source: feeds/diy1/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+Architecture: x86_64
+Installed-Size: 3698
+Filename: tcping_0.3-1_x86_64.ipk
+Size: 4411
+SHA256sum: 9e67f967822b0f14c03579708d334a9745695e50ded31301a10e8392e811e80f
+Description:  tcping measures the latency of a tcp-connection
+
+Package: xray-core
+Version: 1.4.2-1
+Depends: libc, ca-bundle
+Source: feeds/diy1/xray-core
+SourceName: xray-core
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: x86_64
+Installed-Size: 4963839
+Filename: xray-core_1.4.2-1_x86_64.ipk
+Size: 4965611
+SHA256sum: abd110babb03cb1e0af3140b64013c0d5f1737841acbe83926b4fa3715a89c02
+Description:  Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
+ It secures your network connections and thus protects your privacy.
+
