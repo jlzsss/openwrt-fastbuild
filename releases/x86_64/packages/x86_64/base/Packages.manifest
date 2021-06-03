@@ -2124,10 +2124,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: fuyumi <280604399@qq.com>
 Architecture: x86_64
-Installed-Size: 22489
+Installed-Size: 22488
 Filename: vlmcsd_svn1113-1_x86_64.ipk
-Size: 23244
-SHA256sum: 3ceacb65bfcbc0665ec17db841b4fbbe9e1500265a0cbdb4b99c72316c8c021e
+Size: 23247
+SHA256sum: e72d9884b95200dd011e66364e12e534388903d8257c5d60ef17b8d89c8f92d4
 Description:  vlmcsd is a KMS Emulator in C.
 
 Package: vsftpd-alt
