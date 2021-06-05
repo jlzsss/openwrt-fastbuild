@@ -197,7 +197,7 @@ jobs:
         repository: openlumi/releases
         path: ${{ env.HOST_WORK_DIR }}/releases
         ref: gh-pages
-        token:  ${{ secrets.GH_TOKEN }}
+        token:  ${{ secrets.MY_TOKEN || github.token }}
 
     - name: Copy files into Git branch
       if: env.SKIP_TARGET == '0' && env.TEST != '1' && steps.organize.outputs.status == 'success' && !cancelled()
@@ -220,7 +220,7 @@ jobs:
       if: env.SKIP_TARGET == '0' && env.TEST != '1' && steps.organize.outputs.status == 'success' && !cancelled()
       uses: peter-evans/create-pull-request@v3
       with:
-        token: ${{ secrets.GH_TOKEN }}
+        token: ${{ secrets.MY_TOKEN || github.token }}
         path: ${{ env.HOST_WORK_DIR }}/releases
         branch: pr-pages
         base: gh-pages
