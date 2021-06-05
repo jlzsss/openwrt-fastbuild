@@ -5,7 +5,7 @@ Section: opt
 Architecture: x86_64
 Installed-Size: 1147
 Filename: autosamba_1-11_x86_64.ipk
-Size: 1873
-SHA256sum: 18c793e8e3f86f4331e9217de23b306a8002c226d7cd771b0c84399d9c035c27
+Size: 1872
+SHA256sum: 1e61a40471a32961c5a16eb394e9c2b2d95a03b7d298bf8291267932364098bc
 Description:  A hotplug script to config Samba share automatically.
 

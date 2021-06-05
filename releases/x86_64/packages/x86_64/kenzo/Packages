@@ -3,10 +3,10 @@ Version: 184-3
 Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, wget-ssl, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocks-libev-ss-server, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, xray-core
 Section: luci
 Architecture: all
-Installed-Size: 192455
+Installed-Size: 192459
 Filename: luci-app-ssr-plus_184-3_all.ipk
-Size: 192610
-SHA256sum: f344ff95d1ad6d7743ef4b25ac60e8beb0cf9c3c5b337854bac7c3edaec64052
+Size: 192595
+SHA256sum: f8c4ee67b5167294d7cce9bde1b19d3edfc71948dce9be08452affafe76252fc
 Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
 
 Package: luci-i18n-ssr-plus-zh-cn
@@ -16,7 +16,7 @@ Section: luci
 Architecture: all
 Installed-Size: 6415
 Filename: luci-i18n-ssr-plus-zh-cn_184-3_all.ipk
-Size: 7260
-SHA256sum: 018b7a457cc8ad7c3f0a8c41eb427e44f7bd3872fc6ea4c5d2c97b270cab5176
+Size: 7255
+SHA256sum: c484303a285fb7ab06cc42bdcfbde84572739466fa6d1aefff472f8d54872832
 Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
 

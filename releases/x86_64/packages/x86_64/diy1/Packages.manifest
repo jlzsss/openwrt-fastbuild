@@ -7,10 +7,10 @@ License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
 Architecture: x86_64
-Installed-Size: 2354
+Installed-Size: 2352
 Filename: shadowsocksr-libev-ssr-check_2.5.6-9_x86_64.ipk
-Size: 3079
-SHA256sum: 35ae51325b300c37cd1d12d821c8dce7b44cfb9e85664687d8f40516cd42fe01
+Size: 3068
+SHA256sum: 409d6056b30de3af15ed177a51bf37f09707cfb9565d8ff9113b9ec3fe8a82e0
 Description:  shadowsocksr-libev ssr-check
 
 Package: shadowsocksr-libev-ssr-local
@@ -22,10 +22,10 @@ License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
 Architecture: x86_64
-Installed-Size: 61682
+Installed-Size: 61681
 Filename: shadowsocksr-libev-ssr-local_2.5.6-9_x86_64.ipk
-Size: 62549
-SHA256sum: 198f86b1a2841d82d2ff6de768a68b5402a68030330f75f0db9d6f89ce3740db
+Size: 62546
+SHA256sum: ca16167c891719cf336cd39977b55c8b68f01c5380632fdb9e37739d9bf9d69b
 Description:  shadowsocksr-libev ssr-local
 
 Package: shadowsocksr-libev-ssr-redir
@@ -37,10 +37,10 @@ License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
 Architecture: x86_64
-Installed-Size: 55620
+Installed-Size: 55619
 Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_x86_64.ipk
-Size: 56432
-SHA256sum: 0f5b634581fc4dc60328e572ae79981f0c5350ba70142ac099f5d51c83e24e59
+Size: 56420
+SHA256sum: 7794b19cba7bba2a177055f114c9df4f446b2d36d2a3c2f514123eb8e12295be
 Description:  shadowsocksr-libev ssr-redir
 
 Package: tcping
@@ -52,10 +52,10 @@ License: GPL-2.0-only
 LicenseFiles: license.txt
 Section: net
 Architecture: x86_64
-Installed-Size: 3700
+Installed-Size: 3699
 Filename: tcping_0.3-1_x86_64.ipk
-Size: 4409
-SHA256sum: 6627b0bf6a722288c38e7c54e3710805248f0996225189bdb9ebe71c9dbca315
+Size: 4407
+SHA256sum: 73cab850df2e3eb6961581d5ac5a20478148fa4be87f75c664ba23c4ce2cb94f
 Description:  tcping measures the latency of a tcp-connection
 
 Package: xray-core
@@ -68,10 +68,10 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: x86_64
-Installed-Size: 4963845
+Installed-Size: 4963827
 Filename: xray-core_1.4.2-1_x86_64.ipk
-Size: 4965624
-SHA256sum: 45590ef018a05407dcdbc15bc5ce876cc8513dd7ed76b65de2c1dd5d4c3b72c3
+Size: 4965604
+SHA256sum: ef3b8f0d8e37a1ac037732e831ce6529a80de25d962d01e31b09c2cebba5b349
 Description:  Xray, Penetrates Everything. Also the best v2ray-core, with XTLS support. Fully compatible configuration.
  It secures your network connections and thus protects your privacy.
 
