@@ -6,9 +6,9 @@ SourceName: autosamba
 Section: opt
 Maintainer: Lean
 Architecture: x86_64
-Installed-Size: 1146
+Installed-Size: 1147
 Filename: autosamba_1-11_x86_64.ipk
-Size: 1870
-SHA256sum: 685b68e2900266e8e6233cd2e0805da9ab3ffc0e35f340d237f3bc42a4063f3b
+Size: 1873
+SHA256sum: 18c793e8e3f86f4331e9217de23b306a8002c226d7cd771b0c84399d9c035c27
 Description:  A hotplug script to config Samba share automatically.
 
