@@ -216,15 +216,15 @@ jobs:
         git commit -m "Updates files from latest Actions build" -a
         git push
 
-    - name: Create Pull Request
-      if: env.SKIP_TARGET == '0' && env.TEST != '1' && steps.organize.outputs.status == 'success' && !cancelled()
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.MY_TOKEN || github.token }}
-        path: ${{ env.HOST_WORK_DIR }}/releases
-        branch: pr-pages
-        base: gh-pages
-        title: 'Updates files from latest Actions build'
+#    - name: Create Pull Request
+#      if: env.SKIP_TARGET == '0' && env.TEST != '1' && steps.organize.outputs.status == 'success' && !cancelled()
+#      uses: peter-evans/create-pull-request@v3
+#      with:
+#        token: ${{ secrets.MY_TOKEN || github.token }}
+#        path: ${{ env.HOST_WORK_DIR }}/releases
+#        branch: pr-pages
+#        base: gh-pages
+#        title: 'Updates files from latest Actions build'
 
     - name: Upload builder
       if: |
