@@ -194,7 +194,7 @@ jobs:
       uses: actions/checkout@v2
       if: env.SKIP_TARGET == '0' && env.TEST != '1' && steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        repository: jlzsss/releases
+        repository: jlzsss/openwrt-fastbuild-actions
         path: ${{ env.HOST_WORK_DIR }}/releases
         ref: gh-pages
         token:  ${{ secrets.MY_TOKEN || github.token }}
